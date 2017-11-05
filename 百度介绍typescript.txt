@@ -1,0 +1,29 @@
+简介：
+	它是JavaScript的一个超集，而且本质上向这个语言添加了可选的【静态类型和基于类的面向对象编程】
+	TypeScript是为大型应用之开发而设计，而编译时它产生 JavaScript 以确保兼容性。
+背景：
+	TypeScript 起源于开发 JS 应用程序的需求。Microsoft开发者们说内部以及外部的客户都表示他们构建 JavaScript 代码的问题。
+	很多的开发最终都是以别的语言写了之后编译为js，例如 CoffeeScript 和 Script# (读作 ScriptSharp)。如果那种语言不支持它的话，一个明显的劣势是也许无法从那另一种语言使用任何 JavaScript 的具体的语言特性
+特性编辑：++++++++
+	TypeScript 是一种给 JavaScript 添加特性的语言扩展。
+	● 类型批注和编译时类型检查
+	●类
+	●接口
+	●模块 [7] 
+	●lambda 函数
+	语法上，TypeScript 很类似于 JScript .NET，另外一个添加了对静态类型，经典的面向对象语言特性如类，继承，接口和命名空间等的支持的 Microsoft 对 ECMA-262 语言标准的实现。
+	类型批注：
+		TypeScript 通过类型批注提供静态类型以在编译时启动类型检查。基本类型批注是 number, bool 和 string。弱／动态类型是 any 类型。
+		当类型没有给出时，TypeScript 编译器进行类型推断。如果由于缺乏声明，没有类型可以被推断出，那么它就会默认为是动态的 any 类型。
+	声明文件：(具有扩展名 .d.ts)
+ 		TypeScript 脚本被编译时，会产生编译后的声明文件 (具有扩展名 .d.ts) 。在过程中编译器基本上带走所有的函数和方法体而仅保留所导出类型的批注。当第三方开发者从 TypeScript 中使用它时，声明文件用于描述一个 JavaScript 库或模块导出的虚拟的 TypeScript 类型。
+声明文件的概念类似于 C/C++ 中头文件的概念。
+		.d.ts：（https://baike.baidu.com/pic/typescript/4314718/0/d01373f082025aaf5598b5f4faedab64034f1a63?fr=lemma&ct=single#aid=0&pic=d01373f082025aaf5598b5f4faedab64034f1a63）
+工具编辑：
+	编译器
+		tsc, 被编译为可被执行在任何 JavaScript 引擎中，在任何宿主 - 如浏览器 - 中的常规 JavaScript 的 TypeScript 写的。
+		也有用 JavaScript 写的客户端编译器的一个 alpha 版本，它在页面载入时，实时执行 JavaScript 代码。[8] 
+	IDE 和编辑器支持
+		 Visual Studio 2012 ， WebMatrix 提供了一个插件，也为 Sublime Text, Emacs 和 Vim 提供了基本的文本编辑器支持。[9]  在线的 Cloud9 IDE也支持 TypeScript。JetBrains 也计划在他们的 IDE 系列中支持 TypeScript, 而且已经发行了具有部分支持的 PhpStorm 6 和 WebStorm 6 预览版本。[10] 
+
+
